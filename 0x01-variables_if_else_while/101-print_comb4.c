@@ -6,21 +6,21 @@
  */
 int main(void)
 {
-	int value_01, value_02, value_03;
+	int val_01, val_02, val03;
 
-	for (value_01 = '0'; value_01 <= '9'; value_01++)
+	for (val_01 = '0'; val_01 <= '9'; val_01++)
 	{
-		for (value_02 = '0'; value_02 <= '9'; value_02++)
+		for (val_02 = '0'; val_02 <= '9'; val_02++)
 		{
-			for (value_03 = '0'; value_03 <= '9'; value_03++)
+			for (val_03 = '0'; val_03 <= '9'; val_03++)
 			{
-				if ((value_01 < value_02) && (value_02 < value_03))
+				if ((val_01 < val_02) && (val_02 < val_03))
 				{
-					putchar(value_01);
-					putchar(value_02);
-					putchar(value_03);
+					putchar(val_01);
+					putchar(val_02);
+					putchar(val_03);
 
-					if (value_01 != '7' || (value_01 != '7' && value_02 != '8' && value_03 != '9'))
+					if (val_01 != '7' || (val_01 != '7' && val_02 != '8' && val_03 != '9'))
 					{
 						putchar(',');
 						putchar(' ');
