@@ -7,7 +7,6 @@
 int main(void)
 {
 	int value_one, value_two;
-
 	for(value_one='0'; value_one<='9'; value_one++){
 	  for(value_two='0'; value_two<='9'; value_two++){
 	    if(value_one < value_two){
@@ -21,7 +20,7 @@ int main(void)
 	    }
 	  }
 	}
-	
+
 	putchar('\n');
 	return (0);
 }
