@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	int val_01, val_02, val03;
+	int val_01, val_02, val_03;
 
 	for (val_01 = '0'; val_01 <= '9'; val_01++)
 	{
