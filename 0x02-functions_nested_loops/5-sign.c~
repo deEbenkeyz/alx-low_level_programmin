@@ -1,0 +1,12 @@
+#include "main.h"
+/**
+ * print_sign - prints a sign
+ * @r: value to be checked
+ *
+ * Return: Always 0
+ */
+
+int print_sign(int n)
+{
+  
+}
