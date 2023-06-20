@@ -7,9 +7,9 @@
  * Return: Always 0
  */
 
-int _islower(int val)
+int _islower(int c)
 {
-	if (val >= 97 && val <= 122)
+	if (c >= 97 && c <= 122)
 	{
 		return (1);
 	}
