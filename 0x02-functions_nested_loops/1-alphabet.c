@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - print the 26 english alphabet
+ * print_alphabet - print the 26 english alphabet
  *
  * Return: Always 0
  */
