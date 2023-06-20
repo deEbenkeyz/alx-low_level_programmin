@@ -4,7 +4,7 @@
  * main - Check if letter is lowercase
  *
  *
- * Return: Always 0 
+ * Return: Always 0
  */
 
 int _islower(int val)
@@ -13,5 +13,5 @@ int _islower(int val)
 	{
 		return (1);
 	}
-	return (0);   
+	return (0);
 }
