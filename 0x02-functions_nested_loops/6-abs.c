@@ -2,7 +2,7 @@
 /**
  * _abs - the abs function
  *
- * @val: value to be checked 
+ * @val: value to be checked
  *
  * Return: Always 0.
  */
@@ -10,11 +10,11 @@ int _abs(int val)
 {
 	if (val < 0)
 	{
-	  int abs_val;
+		int abs_val;
 
-	  abs_val = val * -1;
+		abs_val = val * -1;
 
-	  return (abs_val);
+		return (abs_val);
 	}
 	return (val);
 }
