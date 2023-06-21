@@ -4,8 +4,7 @@
 /**
  * print_to_98 - main function
  * @n: value to be checked
- * 
- * Return: Always 0.
+ *
  */
 void print_to_98(int n)
 {
