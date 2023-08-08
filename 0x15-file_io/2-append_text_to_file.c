@@ -22,8 +22,8 @@ int append_text_to_file(const char *filename, char *text_content)
 			var_len++;
 	}
 
-	o = open(filename, O_WRONLY | O_APPEND);
-	w = write(var_o, text_content, var_len);
+	var_o = open(filename, O_WRONLY | O_APPEND);
+	var_w = write(var_o, text_content, var_len);
 
 	if (var_o == -1 || var_w == -1)
 		return (-1);
