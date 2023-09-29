@@ -1,1 +1,1 @@
-This is a repository that houses all projects with regards to the ALX Low Level Programming Projects. 
+0x14-bit_manipulation Project tasks with regards to the ALX Low Level Programming Projects. 
